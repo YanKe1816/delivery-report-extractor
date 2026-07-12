@@ -53,6 +53,11 @@ export async function handleMcpRequest(request: Request): Promise<Response> {
               "Extract structured information from AI development delivery reports.",
             inputSchema: EXTRACT_DELIVERY_REPORT_INPUT_SCHEMA,
             outputSchema: DELIVERY_REPORT_OUTPUT_SCHEMA,
+            annotations: {
+              readOnlyHint: true,
+              openWorldHint: false,
+              destructiveHint: false,
+            },
           },
         ],
       });
