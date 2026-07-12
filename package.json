@@ -1,0 +1,16 @@
+{
+  "name": "delivery-report-extractor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "dev": "wrangler dev",
+    "test": "npm run build && node tests/run-mcp-tests.mjs"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260712.1",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.24.0"
+  }
+}

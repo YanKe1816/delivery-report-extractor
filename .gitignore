@@ -1,0 +1,11 @@
+node_modules/
+.wrangler/
+.env
+.dev.vars
+dist/
+.DS_Store
+
+.agents/
+.codex/
+outputs/
+work/
