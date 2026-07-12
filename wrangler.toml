@@ -2,6 +2,9 @@ name = "delivery-report-extractor"
 main = "src/index.ts"
 compatibility_date = "2026-07-12"
 
+[vars]
+OPENAI_APPS_CHALLENGE = "test"
+
 [[rules]]
 type = "Text"
 globs = ["**/*.html"]
